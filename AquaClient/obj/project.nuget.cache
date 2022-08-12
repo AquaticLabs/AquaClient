@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "nJQ7+Wx9Ltc1j8GkZ7p1SzrNiwweYxSTcqr68uUENNMfTK8Jse3GdjBf0Nm27vDU17+iiOqKdIYsUo39mb+fFQ==",
+  "success": true,
+  "projectFilePath": "E:\\Rider\\Projects\\AquaClient\\AquaClient\\AquaClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\extre\\.nuget\\packages\\control.draggable\\1.0.5049.269\\control.draggable.1.0.5049.269.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Control.Draggable 1.0.5049.269' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Control.Draggable",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

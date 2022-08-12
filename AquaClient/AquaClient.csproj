@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Control.Draggable" Version="1.0.5049.269" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Resources\AquaticLabs-logo.png" />
+      <EmbeddedResource Include="Resources\AquaticLabs-logo.png" />
+      <None Remove="Resources\MatchLock.png" />
+      <EmbeddedResource Include="Resources\MatchLock.png" />
+      <None Remove="Resources\lock-logo.png" />
+      <EmbeddedResource Include="Resources\lock-logo.png" />
+    </ItemGroup>
+
+</Project>
